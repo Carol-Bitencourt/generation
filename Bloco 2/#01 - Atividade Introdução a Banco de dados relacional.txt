@@ -1,0 +1,34 @@
+Descreva com suas palavras o que é um Banco de dados.
+Um lugar que armazena dados.
+
+Descreva com suas palavras o que é um SGDB (Sistema Gerenciador de Banco de Dados)
+Um sistema usado para gerenciar e manipular os dados salvos.
+
+Descreva as principais diferenças entre o Banco de dados Relacional e o Banco de dados Não Relacional?
+O banco de dados relacional tem o formato de tabela e o não relacional, não.
+
+O que é Linguagem de Manipulação de dados (DML)?
+DML - Data Manipulation Language - Linguagem de Manipulação de Dados.
+São os comandos que interagem com os dados dentro das tabelas.
+São comandos DML : INSERT, DELETE e UPDATE
+O que é Linguagem de Definição de dados (DDL)?
+DDL - Data Definition Language - Linguagem de Definição de Dados.
+São os comandos que interagem com os objetos do banco.
+São comandos DDL : CREATE, ALTER e DROP
+
+O que é uma Chave Primária e qual a função dela?
+É o identificador único de um registro na tabela
+
+O que é uma Chave Estrangeira e qual a função dela?
+É a chave que cria a relação entre tabelas. Uma ou mais colunas de outra tabela que faz referência à chave primária
+
+O que é o Diagrama Entidade Relacionamento (DER) e qual a sua importância?
+O DER é utilizado para representar em forma gráfica o que foi descrito no MER (Modelo Entidade Relacionamento)
+
+Quais são os 3 tipos de Relacionamento entre Tabelas no Modelo Relacional?
+1 – 1 (um para um);
+1 – N (um para vários) ;
+N – N (vários para vários);
+
+ Qual a importância do Banco de dados para o desenvolvimento web?
+Sem ele não teria como armazenar os dados, tampouco manipulá-los.

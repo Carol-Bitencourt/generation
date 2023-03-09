@@ -1,19 +1,23 @@
-package cliente;
-
-import cliente.Cliente;
+package estabelecimento;
 
 public class TestaCliente {
-	
-	public static void main(String[] args){
-		
-	Cliente novoCliente = new Cliente("Celina", "1234567","Avenida Regina Lacerda", "81999887", "celina.marinho@gmail.com");
-	
-	System.out.println("Nome: " + novoCliente.getNome());
-	System.out.println("CPF: " + novoCliente.getCpf());
-	System.out.println("Endereço: " + novoCliente.getEndereco());
-	System.out.println("Email: " + novoCliente.getEmail());
-	
 
-   }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Pessoa Física:
+		PessoaFisica cliente1 = new PessoaFisica("Matheus", 27, 23584525);
+		PessoaFisica cliente2 = new PessoaFisica("Luiza", 26, 84512561);
+		
+		cliente1.visualizar();
+		cliente2.visualizar();
+		
+		System.out.println("\n");
+		//Pessoa Juridica:
+		PessoaFisica pessoaJuridica1 = new PessoaFisica("Determinação", 10, 1258471);
+		PessoaFisica pessoaJuridica2 = new PessoaFisica("Esperança", 6, 152288744);
+		
+		pessoaJuridica1.visualizar();
+		pessoaJuridica2.visualizar();
+	}
 
 }
